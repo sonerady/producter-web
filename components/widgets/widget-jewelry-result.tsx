@@ -96,10 +96,15 @@ export default function WidgetJewelryResult({
               İndir
             </Button.Root>
             <Button.Root
-              variant={isCopied ? 'success' : 'neutral'}
+              variant={isCopied ? 'primary' : 'neutral'}
               mode='stroke'
               size='small'
               onClick={handleCopyToClipboard}
+              className={
+                isCopied
+                  ? 'bg-success-alpha-10 text-success-base ring-success-base hover:bg-success-alpha-10 hover:ring-success-base'
+                  : ''
+              }
             >
               <Button.Icon as={isCopied ? RiCheckLine : RiDownloadLine} />
               {isCopied ? 'Kopyalandı!' : 'Panoya Kopyala'}
