@@ -109,12 +109,13 @@ export default function WidgetBulkSMS({
             Mesaj
           </label>
           <div className='relative'>
-            <Textarea.Root simple>
+            <Textarea.Root>
               <Textarea.Textarea
                 placeholder='Mesajınızı buraya yazın...'
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 className='min-h-[120px]'
+                simple
               />
             </Textarea.Root>
             <div className='absolute bottom-2 right-3 text-xs text-text-soft-400'>
