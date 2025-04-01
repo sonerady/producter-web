@@ -37,7 +37,6 @@ export const navigationLinks: NavigationLink[] = [
   { icon: RiBankCardLine, label: 'My Cards', href: '/my-cards' },
   { icon: RiArrowLeftRightLine, label: 'Transfer', href: '/send-money' },
   { icon: RiHistoryLine, label: 'Transactions', href: '/transactions' },
-  { icon: RiMessage2Line, label: 'Toplu SMS', href: '/bulk-sms' },
   { icon: RiSparklingLine, label: 'Takı Rötuşlama', href: '/retouch-jewelry' },
   { icon: RiBillLine, label: 'Payments', href: '#', disabled: true },
   { icon: RiExchangeLine, label: 'Exchange', href: '#', disabled: true },

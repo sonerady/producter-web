@@ -156,20 +156,6 @@ export default function PageNotificationSettings() {
                 </div>
               </LabelPrimitives.Root>
             </div>
-            <div className='flex items-start gap-2'>
-              <Checkbox.Root id={`${uniqueId}-sms-notifications`} />
-              <LabelPrimitives.Root
-                className='cursor-pointer'
-                htmlFor={`${uniqueId}-sms-notifications`}
-              >
-                <div className='text-label-sm text-text-strong-950'>
-                  SMS Notifications
-                </div>
-                <div className='mt-1 text-paragraph-xs text-text-sub-600'>
-                  Receive notifications via SMS
-                </div>
-              </LabelPrimitives.Root>
-            </div>
           </div>
         </div>
 
